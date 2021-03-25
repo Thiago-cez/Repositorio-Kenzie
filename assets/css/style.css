@@ -146,9 +146,10 @@ main .coluna section ul li strong{
     display: none;
 }
 label{
-    border: solid 2px red;
+    float: right;
+    width: 35px;
+    
 }
-
 .ativar-dark:checked ~ .dark-mode{
     --corBackgroundPrimaria: #000;
     --corBackgroundSecundaria: #000;
